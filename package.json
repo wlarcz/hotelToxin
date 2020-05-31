@@ -4,7 +4,7 @@
   "description": "Поиск номеров в отеле",
   "main": "index.js",
   "scripts": {
-    "webpack": "webpack -d",
+    "webpack": "webpack",
     "build": "webpack -d",
     "prod": "webpack -p",
     "test": "echo \"Error: no test specified\" && exit 1"

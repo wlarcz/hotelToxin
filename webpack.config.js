@@ -7,7 +7,7 @@ const CopyPlugin = require('copy-webpack-plugin')
 
 const fs = require('fs')
 const PATHS = {
-    src: path.join(__dirname, "./src")
+    src: path.join(__dirname, "./src/pages")
   }
 const PAGES_DIR = PATHS.src
 const PAGES = fs.readdirSync(PAGES_DIR).filter(fileName => fileName.endsWith('.pug'))

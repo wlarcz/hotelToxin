@@ -76,7 +76,13 @@ module.exports = {
           patterns: [
             { from: './src/img',
               to: 'img' },
+              { from: './src/blocks/**/*.{jpg,png,svg}',
+              to: 'img',
+              flatten: true,
+              },
+              
           ],
+
         }),
         ...PAGES.map(page => new HtmlWebpackPlugin({
           template: `${PAGES_DIR}/${page}`,

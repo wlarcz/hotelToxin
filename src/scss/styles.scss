@@ -1,5 +1,22 @@
 @import "../blocks/logo-uikit/logo-uikit.scss";
+@import "../blocks/header-uikit/header-uikit.scss";
 
 body {
     background-color:white;
+}
+
+.colors-type__body {
+    display: grid;
+    grid-template-columns: minmax(200px, 45%) 1fr;
+    margin: 0;
+    padding: 0;
+}
+
+.colors-type__left-storona {
+    height: auto;
+    padding: 2rem;
+}
+
+.colors-type__right-storona {
+    padding: 2rem;
 }

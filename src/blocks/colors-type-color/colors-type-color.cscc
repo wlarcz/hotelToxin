@@ -1,0 +1,25 @@
+.colors-type__body {
+    display: grid;
+    grid-template-columns: minmax(200px, 45%) 1fr;
+    margin: 0;
+    padding: 0 0 0 150px;
+}
+
+.colors-type__left-storona {
+    height: auto;
+    padding-top: 25px;
+}
+
+.colors-type__right-storona {
+    padding: 2rem;
+}
+
+.colors-type__color-palette {
+    margin-bottom: 5px;
+}
+
+.colors-type__color {
+    display: inline-block;
+    margin-right: 30px;
+    vertical-align: middle;
+}

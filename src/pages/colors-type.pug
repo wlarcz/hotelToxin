@@ -7,4 +7,13 @@ html(lang='ru')
          link(href='styles.css', rel='stylesheet')
     body
         include ..\blocks\header-uikit\header-uikit.pug
-        include ..\blocks\colors-type-color\colors-type-color.pug
+        include ..\blocks\colors-type-color\colors-type-color-2.pug
+        .colors-type__body    
+            .colors-type__left-storona
+                +color-palette('Dark shade 100%', '#1F2041', '#1F2041')
+                +color-palette('Dark shade 75%', 'rgba(31, 32, 65, 0.75)', '#1F2041')
+                +color-palette('Dark shade 50%', 'rgba(31, 32, 65, 0.5)', '#1F2041')
+                +color-palette('Dark shade 25%', 'rgba(31, 32, 65, 0.25)', '#1F2041')
+                +color-palette('Dark shade 5%', 'rgba(31, 32, 65, 0.05)', '#1F2041')
+                +color-palette('Purple', '#BC9CFF', '#BC9CFF')
+                +color-palette('Green', '#6FCF97', '#6FCF97')

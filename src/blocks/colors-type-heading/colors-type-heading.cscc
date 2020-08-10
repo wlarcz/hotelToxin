@@ -1,0 +1,9 @@
+.colors-type__right-storona {
+    padding: 2rem;
+}
+
+.colors-type__color {
+    display: inline-block;
+    margin-right: 30px;
+    vertical-align: middle;
+}

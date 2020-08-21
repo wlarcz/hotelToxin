@@ -1,6 +1,20 @@
-mixin heading(colorname, color, textcolor)
+mixin heading(tag, text)
     div
-        div(style="width: 29px; height: 30px; display: inline-block; margin-right: 30px;")
-            h1(style="display: inline-block;") H1
+        div(style="display: inline-block; margin-right: 30px; text-align: right; width: 60px;")
+            if tag=='h1'
+                span.h1-normal H1
+            else if tag=='h2'
+                span.h2-normal H2
+            else if tag=='h3'
+                span.h3-normal H3
+            else if tag=='body'
+                span.p-normal body
         div(style="display: inline-block;")
-            p This one is the sub-section or widget title
+            if tag=='h1'
+                h1 This one is the sub-section or widget title
+            else if tag=='h2'
+                h2 This one is the sub-section or widget title
+            else if tag=='h3'
+                h3 This one is the sub-section or widget title
+            else if tag=='body'
+                p This one is the sub-section or widget title

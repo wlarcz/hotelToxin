@@ -8,7 +8,6 @@ html(lang='ru')
     body
         include ..\blocks\header-uikit\header-uikit.pug
         include ..\blocks\colors-type-color\colors-type-color-2.pug
-        //include ..\blocks\colors-type-heading\colors-type-heading-2.pug
         .colors-type__body    
             .colors-type__left-storona
                 +color-palette('Dark shade 100%', '#1F2041', '#1F2041')
@@ -19,4 +18,9 @@ html(lang='ru')
                 +color-palette('Purple', '#BC9CFF', '#BC9CFF')
                 +color-palette('Green', '#6FCF97', '#6FCF97')
             .colors-type__right-storona
-                include ..\blocks\colors-type-heading\colors-type-heading.pug
+                //include ..\blocks\colors-type-heading\colors-type-heading.pug
+                include ..\blocks\colors-type-heading\colors-type-heading-2.pug
+                +heading('h1', 'This one is the sub-section or widget title')
+                +heading('h2', 123456)
+                +heading('h3', 121111113)
+                +heading('body', 121111113)

@@ -19,8 +19,17 @@ html(lang='ru')
                 +color-palette('Green', '#6FCF97', '#6FCF97')
             .colors-type__right-storona
                 //include ..\blocks\colors-type-heading\colors-type-heading.pug
-                include ..\blocks\colors-type-heading\colors-type-heading-2.pug
-                +heading('h1', 'This one is the sub-section or widget title')
-                +heading('h2', 123456)
-                +heading('h3', 121111113)
-                +heading('body', 121111113)
+                dl
+                    dt(style="float: left; width: 50px; overflow: hidden; text-align: right; text-overflow: ellipsis; font-family: Montserrat; font-style: normal; font-weight: normal; font-size: 24px; line-height: 29px; color: rgba(31, 32, 65, 0.25);") H1
+                    dd(style="margin-bottom: 50px; font-family: Quicksand; font-style: normal; font-weight: bold; font-size: 24px; line-height: 30px; width: 340px; margin-left: 80px;") This one is the sub-section or widget title
+                    dt(style="float: left; width: 50px; overflow: hidden; text-align: right; text-overflow: ellipsis; margin-right: 30px; font-family: Montserrat;  font-style: normal; font-weight: normal; font-size: 19px; line-height: 23px; color: rgba(31, 32, 65, 0.25);") H2
+                    dd(style="width: 340px; margin-left: 80px; margin-bottom: 50px;") Next one is the item title inside widgets
+                    dt(style="float: left; width: 50px; overflow: hidden; text-align: right; text-overflow: ellipsis; margin-right: 30px; font-family: Montserrat; font-style: normal; font-weight: normal; font-size: 12px; line-height: 15px; text-transform: uppercase; color: rgba(31, 32, 65, 0.25);;") H3
+                    dd(style="margin-bottom: 50px; width: 340px; margin-left: 80px;") This is a label or CTA text
+                    dt(style="float: left; width: 50px; overflow: hidden; text-align: right; text-overflow: ellipsis; margin-right: 30px; font-family: Montserrat; font-style: normal; font-weight: normal; font-size: 14px; line-height: 24px; color: rgba(31, 32, 65, 0.25);") Body
+                    dd(style="margin-bottom: 50px; width: 340px; margin-left: 80px;") This is the body text which is used for most of the design, like paragraphs, lists, etc.
+                //include ..\blocks\colors-type-heading\colors-type-heading-2.pug
+                //+heading('h1', 'This one is the sub-section or widget title')
+                //+heading('h2', 123456)
+                //+heading('h3', 121111113)
+                //+heading('body', 121111113)

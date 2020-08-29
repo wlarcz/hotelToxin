@@ -7,7 +7,7 @@ header {
 
 .colors-type__body {
   display: grid;
-  grid-template-columns: minmax(200px, 45%) 1fr;
+  grid-template-columns: minmax(200px, 50%) 1fr;
   margin: 0;
   padding: 0 0 0 150px; }
 

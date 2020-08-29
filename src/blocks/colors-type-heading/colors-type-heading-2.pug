@@ -9,12 +9,12 @@ mixin heading(tag, text)
                 span.h3-normal H3
             else if tag=='body'
                 span.p-normal body
-        div(style="display: inline-block;")
+        div(style="display: inline-block; width: 340px;")
             if tag=='h1'
                 h1 This one is the sub-section or widget title
             else if tag=='h2'
-                h2 This one is the sub-section or widget title
+                h2 Next one is the item title inside widgets title
             else if tag=='h3'
-                h3 This one is the sub-section or widget title
+                h3 This is a label or CTA text
             else if tag=='body'
-                p This one is the sub-section or widget title
+                p This is the body text which is used for most of the design, like paragraphs, lists, etc.
